@@ -184,12 +184,13 @@ namespace Project4 {
 			// 
 			// button1
 			// 
+			this->button1->BackColor = System::Drawing::SystemColors::ActiveBorder;
 			this->button1->Location = System::Drawing::Point(16, 458);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(284, 23);
 			this->button1->TabIndex = 22;
 			this->button1->Text = L"Нарисовать график";
-			this->button1->UseVisualStyleBackColor = true;
+			this->button1->UseVisualStyleBackColor = false;
 			this->button1->Click += gcnew System::EventHandler(this, &MyForm::button1_Click);
 			// 
 			// button2
@@ -227,6 +228,7 @@ namespace Project4 {
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
+			this->BackColor = System::Drawing::SystemColors::ActiveBorder;
 			this->ClientSize = System::Drawing::Size(497, 493);
 			this->Controls->Add(this->chart1);
 			this->Controls->Add(this->button2);
